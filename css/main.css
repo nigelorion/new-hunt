@@ -12,7 +12,6 @@ body {
   color: red; }
 
 .logo {
-  width: 60px;
   position: fixed;
   left: 5px;
   top: 5px;
@@ -33,7 +32,8 @@ body {
   justify-content: flex-end;
   align-items: center;
   z-index: 99;
-  transition: all 200ms; }
+  transition: all 200ms;
+  color: red; }
 
 .mobileNav {
   height: 100vh;
@@ -42,7 +42,7 @@ body {
 
 .links {
   text-decoration: none;
-  color: rgba(193, 181, 122, 0.88);
+  color: red;
   margin: 2%;
   font-size: 1.4em;
   transition: all 300ms; }
@@ -52,7 +52,7 @@ body {
 
 .links:hover {
   text-decoration: none;
-  color: #e2e2e2;
+  color: blue;
   border-bottom: 1px solid white; }
 
 .links:active, .links:visited {
@@ -89,8 +89,8 @@ body {
   border: none;
   background-color: rgba(193, 181, 122, 0.88);
   color: white;
-  font-size: 1.4em;
-  width: 150px;
+  font-size: 1em;
+  width: 100px;
   height: 50px;
   transition: all 150ms;
   display: flex;
@@ -107,7 +107,7 @@ body {
   color: inherit; }
 
 .heroTitle {
-  font-size: 5em; }
+  font-size: 3em; }
 
 .buttonContainer {
   display: flex;
@@ -119,8 +119,7 @@ body {
   opacity: 0;
   transition: opacity 800ms;
   color: white;
-  filter: grayscale(80%);
-  height: 100px; }
+  height: 75px; }
 
 .heroButton:hover ~ .arrow {
   opacity: 1; }
@@ -157,23 +156,8 @@ body {
   width: 80%;
   margin: 2% auto; }
 
-.banner {
-  height: 200px;
-  background-color: #cbcbcb;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 8%;
-  margin: 0; }
-
 p {
   font-size: 1.2em; }
-
-.content {
-  margin-top: 100px; }
 
 .address {
   display: flex;
@@ -192,7 +176,7 @@ p {
   margin-bottom: 3%; }
 
 .logoHero {
-  width: 400px;
+  width: 300px;
   margin-top: 5%;
   filter: invert(100%); }
   @media (max-width: 700px) {
@@ -206,8 +190,22 @@ p {
   padding: 1%;
   margin-bottom: 3%; }
 
-.storyContent {
-  height: 900px; }
+.story {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: blue;
+  padding: 8%; }
+
+.about {
+  background-color: green;
+  height: 100vh; }
+
+.location {
+  height: 100vh;
+  background-color: red; }
 
 .hamburger {
   color: white;
