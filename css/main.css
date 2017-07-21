@@ -279,4 +279,9 @@ h1 {
 .boldFont {
   font-weight: bold; }
 
+.instaWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*# sourceMappingURL=main.css.map */
