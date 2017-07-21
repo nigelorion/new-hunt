@@ -282,4 +282,50 @@ h1 {
   align-items: center;
   flex-wrap: wrap; }
 
+.contact {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.form {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between; }
+
+input {
+  width: 150px;
+  border: solid 1px black;
+  height: 35px; }
+
+textarea {
+  width: 200px;
+  border: solid 1px black;
+  height: 100px; }
+
+input:focus {
+  outline: solid 3px #949494; }
+
+textarea:focus {
+  outline: solid 3px #949494; }
+
+button {
+  width: 100px;
+  height: 50px;
+  color: #c1c1c1;
+  background-color: #525252;
+  border: none;
+  font-size: 1.1em;
+  transition: all 200ms; }
+
+button:hover {
+  color: black;
+  background-color: #e0e0e0; }
+
 /*# sourceMappingURL=main.css.map */

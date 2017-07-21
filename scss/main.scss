@@ -302,7 +302,7 @@ p {
 }
 
 .location {
-  
+
 
 }
 
@@ -423,8 +423,68 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap
+
 
   // width: 800px;
   // margin: 0 auto;
+}
+
+
+.contact {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  margin: 0 auto;
+
+
+  flex-direction: column;
+  height: 250px;
+
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+
+input {
+  width: 150px;
+  border: solid 1px black;
+  height: 35px;
+}
+
+
+textarea {
+  width: 200px;
+  border: solid 1px black;
+  height: 100px;
+}
+
+input:focus {
+  outline: solid 3px rgb(148, 148, 148) ;
+}
+
+textarea:focus {
+  outline: solid 3px rgb(148, 148, 148) ;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  color: rgb(193, 193, 193);
+  background-color: rgb(82, 82, 82);
+  border: none;
+  font-size: 1.1em;
+  transition: all 200ms;
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(224, 224, 224);
 }
