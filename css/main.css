@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   letter-spacing: 3px; }
 
 body {
@@ -32,32 +32,34 @@ body {
   justify-content: flex-end;
   align-items: center;
   z-index: 99;
-  transition: all 200ms;
-  color: red; }
+  transition: all 200ms; }
 
 .mobileNav {
   height: 100vh;
   flex-direction: column;
   justify-content: space-around; }
 
-.links {
-  text-decoration: none;
-  color: red;
-  margin: 2%;
-  font-size: 1.4em;
-  transition: all 300ms; }
-  @media (max-width: 700px) {
-    .links {
-      opacity: 0; } }
-
-.links:hover {
-  text-decoration: none;
-  color: blue;
-  border-bottom: 1px solid white; }
-
 .links:active, .links:visited {
   text-decoration: none;
   color: inherit; }
+
+.links {
+  text-decoration: none;
+  color: redrgb(153, 149, 102);
+  margin: 2%;
+  font-size: 1.4em;
+  transition: all 500ms; }
+  @media (max-width: 700px) {
+    .links {
+      opacity: 0; } }
+  .links:hover {
+    color: blue; }
+
+.links:hover {
+  text-decoration: none;
+  color: #c9c9c9;
+  border-bottom: 1px solid white;
+  transform: scale(1.2); }
 
 .links:focus {
   text-decoration: none;
@@ -191,21 +193,22 @@ p {
   margin-bottom: 3%; }
 
 .story {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 8%; }
+
+.about {
   height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-color: blue;
   padding: 8%; }
 
-.about {
-  background-color: green;
-  height: 100vh; }
-
 .location {
-  height: 100vh;
-  background-color: red; }
+  height: 100vh; }
 
 .hamburger {
   color: white;
@@ -227,5 +230,37 @@ p {
 .off {
   display: none;
   font-size: 5em; }
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+.sections {
+  margin: 3%; }
+
+.storyImg {
+  width: 435px;
+  height: 100%;
+  float: left; }
+  @media (max-width: 700px) {
+    .storyImg {
+      width: 300px; } }
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1%;
+  border-bottom: 1px solid grey; }
+
+.hashtags {
+  font-weight: bold;
+  font-size: 1.5em; }
+
+.bold {
+  font-size: 1.8em;
+  font-style: italic; }
 
 /*# sourceMappingURL=main.css.map */
