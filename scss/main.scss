@@ -302,7 +302,7 @@ p {
 }
 
 .location {
-  height: 100vh;
+  
 
 }
 
@@ -423,4 +423,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
+  // width: 800px;
+  // margin: 0 auto;
 }

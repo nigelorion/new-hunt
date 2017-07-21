@@ -210,9 +210,6 @@ p {
   text-align: center;
   padding: 8%; }
 
-.location {
-  height: 100vh; }
-
 .hamburger {
   color: white;
   font-size: 3em;
@@ -282,6 +279,7 @@ h1 {
 .instaWrapper {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 /*# sourceMappingURL=main.css.map */
