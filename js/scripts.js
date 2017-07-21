@@ -36,6 +36,12 @@ $(window).scroll(function() {
     else {
         $('.logo').fadeOut(600);
     }
+    // if ($(window).scrollTop() > 500) {
+    //     $('.nav').fadeIn(600);
+    // }
+    // else {
+    //     $('.nav').fadeOut(600);
+    // }
 });
 
 // $('#nav-toggle').click(function(){
