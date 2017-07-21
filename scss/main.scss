@@ -134,6 +134,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1%;
 }
 
 .heroButton:hover {
@@ -240,7 +241,7 @@ p {
 
 
 .heroTitle {
-  font-size: 2.3em;
+  font-size: 2em;
   color: white;
   letter-spacing: 4px
 
@@ -254,7 +255,7 @@ p {
 
 .logoHero {
   width: 300px;
-  margin-top: 5%;
+  margin-top: 3%;
   filter: invert(100%);
   @media (max-width: 700px) {
     width: 300px;
@@ -267,8 +268,8 @@ p {
   background-color: rgba(45, 45, 45, 0.8);
   color: white;
   text-align: center;
-  padding: 1%;
-  margin-bottom: 3%;
+  padding: 2px;
+  // margin-bottom: 3%;
 }
 
 // .storyContent {
