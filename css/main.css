@@ -259,9 +259,7 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  padding: 1%;
-  border-bottom: 1px solid grey; }
+  align-items: center; }
 
 .hashtags {
   font-weight: bold;
