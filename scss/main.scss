@@ -357,14 +357,19 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 440px;
-  margin: 2%;
+  height: 600px;
+  margin: 7%;
+  @media (max-width: 700px) {
+    margin: 3%;
+
+  }
 }
 
 .sections {
   // border: 1px solid black;
   margin: 3%;
   border-bottom: 1px solid grey;
+  height: 100%;
 
 }
 
@@ -411,6 +416,7 @@ h1 {
 
 .location {
   text-align: center;
+
 
 }
 

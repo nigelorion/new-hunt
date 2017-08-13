@@ -235,12 +235,16 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 440px;
-  margin: 2%; }
+  height: 600px;
+  margin: 7%; }
+  @media (max-width: 700px) {
+    .map {
+      margin: 3%; } }
 
 .sections {
   margin: 3%;
-  border-bottom: 1px solid grey; }
+  border-bottom: 1px solid grey;
+  height: 100%; }
 
 .storyImg {
   width: 435px;
