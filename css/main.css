@@ -248,6 +248,9 @@ p {
   margin: 3%;
   border-bottom: 1px solid grey;
   height: 100%; }
+  @media (max-width: 700px) {
+    .sections {
+      padding-top: 20%; } }
 
 .storyImg {
   width: 435px;
